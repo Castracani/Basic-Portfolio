@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+}
+
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+}
