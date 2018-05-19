@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+<!-- This unfortunately is not 100% complete, but it was what I was (mostly) capable of given the time constraints. The two most prominent errors that I've realized were the issues with my header and my footer, as well as extremely sloppy coding. For the header, I believe that I approached it wrong when using two <div> containers without using an actual <header> tag, which ultimately made it so my border dividers for my Nav Links weren't visible. They are there, but no matter what I tried to do they wouldn't appear. Instead of using a proper header tag, I used h1, which at glance doesn't seem right, but I didn't have it in me to go tinker with the css and make the requisite changes. As to my footer, the "sticky" tutorial that I read made it so the bottom 50px of the body content isn't visible. This can be seen with on my portfolio.html page. And the overall sloppiness of the css (and HTML probably too) is from only getting portions of one approach to work at a time, therefore requiring seven or so approaches to get it to look like the reference material. Some of the stuff was useless, some was vital; I couldn't find everything of the former. -->
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +18,17 @@
     <div class="header">
         <div class="nav">
             <h1>William Myers</h1>
-                <ul>
-                     <a href="index.html"><li></li>About Me</li></a>
-                     <a href="portfolio.html"><li></li>Portfolio</li></a>
-                     <a href="contact.html"><li>Contact Me</li></a>
-                </ul>
+            <ul>
+                <a href="index.html">
+                    <li></li>About Me</li>
+                </a>
+                <a href="portfolio.html">
+                    <li></li>Portfolio</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact Me</li>
+                </a>
+            </ul>
         </div>
     </div>
 
@@ -35,47 +43,44 @@
 
         <br>
 
-        <img src="https://www.earthrangers.com/public/content/wildwire/crocodile-smile.jpg" alt="how is a crocodile typing this?">
+        <div class="img">
+            <img src="https://www.earthrangers.com/public/content/wildwire/crocodile-smile.jpg" alt="how is a crocodile typing this?">
+        </div>
 
         <p class="p1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor lacinia tellus, sed vulputate justo ornare ut.
-            Nullam porttitor orci rhoncus, scelerisque purus et, ullamcorper purus. Quisque faucibus feugiat ligula, ac fermentum
-            justo tincidunt ac. Vestibulum dapibus, tortor lobortis auctor scelerisque, lectus ex accumsan sem, sed lacinia
-            purus est nec mi. Quisque aliquam lorem vitae ante lobortis blandit. Proin ornare elementum eros. Nullam et tincidunt
-            urna. Etiam ut feugiat lacus. Vestibulum eu congue quam. Quisque dignissim sed massa nec convallis. Etiam dolor
-            est, dignissim a felis sit amet, feugiat lacinia mauris. Nulla viverra maximus nisi at elementum. Ut vestibulum,
-            nulla id tincidunt pharetra, dui ex tempor libero, vel eleifend turpis dolor et ante.
+            Hi there, thanks for stopping by my Web site! My name is William Myers, and you're in for a treat when you're reading my
+            bio. I don't mean to brag or anything, but I'm a talented individual when it comes to this type of stuff. I've
+            been professionally tested on my bio writing capabilites, and I've scored five standard deviations above the
+            mean according to internationally recoginized standards. I'm basically a celebrity in my hometown; in fact the
+            town council unanimously voted to erect a statue of me just last month (send me your fanmail
+            <a href="contact.html" target="_blank">here!</a>).
         </p>
         <div class="clearfix"></div>
 
         <br>
 
         <p class="p2">
-            Vestibulum quis nisi tristique, bibendum ex eget, pretium massa. Vivamus eu nibh nec mi ultrices lobortis ut a massa. Donec
-            congue tristique sem pellentesque tincidunt. Vestibulum eget libero metus. In nec ultricies nisl. Fusce efficitur
-            sapien pharetra pharetra dictum. Aliquam id ex nec tortor tempus placerat lacinia eu turpis. Maecenas ipsum justo,
-            viverra sit amet tempor a, dignissim ac ipsum. Phasellus eget placerat sem, vitae rutrum velit.
+            I love going out and stretching myself to bask in the Florida sun, and I also love going for a quick dip in the water and
+            swim lazily around until something catches my attention. That attention-getter is typically food, and nothing
+            gets me going like a nice thick tender cut of meat! Now I know some of you reading this are the picky type, but
+            I count my blessings each and everytime I catch myself somethin' juicy. Cow, pig, deer, turkey... whatever it
+            may be, it's getting in my stomach ASAP. Now something I can't stand is the cold! I'm in Florida for a reason!
+            Just the thought of frost on the grass makes me shiver.
         </p>
 
         <br>
-
-        <p class="p3">
-            Maecenas eu efficitur ipsum, at rhoncus libero. Nullam eget pulvinar libero. Integer semper libero non mollis laoreet. Vestibulum
-            cursus facilisis velit, sed dapibus est fringilla et. Sed nunc lacus, facilisis eu tincidunt vitae, pellentesque
-            nec nunc. Suspendisse suscipit urna a purus commodo, ac tincidunt elit pellentesque. Ut iaculis ligula enim,
-            in convallis urna vehicula nec.
-        </p>
-
         <br>
 
     </div>
 
 
     <footer class="footer">
-       <div id="footer">
+        <div id="footer">
             Copyright &copy;
-       </div>
+        </div>
     </footer>
+
+    </div>
 
 
 </body>
